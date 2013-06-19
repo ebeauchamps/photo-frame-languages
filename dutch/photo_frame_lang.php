@@ -2,7 +2,7 @@
 
 $lang	= array(
 	
-	'photo_frame_module_name'            => 'Fotolijst',
+	'photo_frame_module_name'            => 'Photo Frame',
 	'photo_frame_settings'               => 'Fotolijst instellingen',
 	'photo_frame_module_description'     => 'Premium foto management',
 	'photo_frame_required'    			 => 'Het veld {field_name} is verplicht.',

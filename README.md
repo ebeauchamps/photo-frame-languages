@@ -1,6 +1,6 @@
 # Photo Frame Language Pack
 
-Photo Frame was built to work with multiple languages. If you would like to see your langauge appear in the Photo Frame core, use the following steps.
+Photo Frame was built to work with multiple languages. If you would like to see your language appear in the Photo Frame core, use the following steps.
 
 ### How to make a language pack.
 

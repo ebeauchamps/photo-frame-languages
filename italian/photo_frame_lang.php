@@ -1,4 +1,8 @@
-  'photo_frame_module_name'            => 'Photo Frame',
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$lang	= array(
+	
+	'photo_frame_module_name'            => 'Photo Frame',
 	'photo_frame_settings'               => 'Impostazioni Photo Frame',
 	'photo_frame_module_description'     => 'Gestione avanzata delle fotografie',
 	'photo_frame_required'    			 => 'Il campo  {field_name} è obbligatorio.',
@@ -120,3 +124,7 @@
 	'photo_frame_upload_file_not_exists' => 'Il seguente file non esiste: {file}',
 	'photo_frame_max_size_exceeded'      => 'La foto che che stai provando a caricare supera la dimensione massima del file che &#232; di {max_size}.',
 	'photo_frame_no_upload'              => 'La foto non puo&#39; essere caricata dal server. Controlla le impostazione del tuo server o contatta un amminstratore del tuo fornitore di servizi.',
+	
+	//--------------------------------------------
+	'', ''
+);

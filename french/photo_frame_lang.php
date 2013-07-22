@@ -1,12 +1,12 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $lang	= array(
-	
+
 	'photo_frame_module_name'            => 'Photo Frame',
 	'photo_frame_settings'               => 'Paramètres Photo Frame',
 	'photo_frame_module_description'     => 'Une gestion photo Premium',
 	'photo_frame_required'    			 => 'Le champ {field_name} est requis.',
-		
+
 	'photo_frame_button_text'            => 'Téléverser',
 	'photo_frame_browse_button_text'     => 'Parcourir',
 	'photo_frame_instructions'           => 'Rogner la photo en cliquant et glissant.',
@@ -75,7 +75,7 @@ $lang	= array(
 	'photo_frame_lat'				     => 'Lat',
 	'photo_frame_lng'				     => 'Long',
 	'photo_frame_enter_location'		 => 'Entrez une adresse ou un code postal',
-	
+
 	'photo_frame_maintain_ratio'		 => 'Conserver le ratio d\'aspect ?',
 	'photo_frame_sharpness_desc'		 => 'Ajuster la netteté de la photo',
 	'photo_frame_grayscale_desc'		 => 'Converti la photo en niveaux de gris.',
@@ -96,35 +96,35 @@ $lang	= array(
 	'photo_frame_effects_desc'  		 => 'Appliquer différents effets à la photo',
 	'photo_frame_vignette_desc'			 => 'Appliquer un effet vignette à la photo.',
 	'photo_frame_rgba_desc'				 => 'Ajuster les valeurs RVBA de la photo',
-	'photo_frame_rgb_desc'				 => 'Ajuster les valeurs RVB de la photo',	
-	'photo_frame_blur_desc'				 => 'Ajuster le niveau de flou de la photo',	
-	'photo_frame_pixelate_desc'			 => 'Ajuster la taille des pixels constituant la photo',	
+	'photo_frame_rgb_desc'				 => 'Ajuster les valeurs RVB de la photo',
+	'photo_frame_blur_desc'				 => 'Ajuster le niveau de flou de la photo',
+	'photo_frame_pixelate_desc'			 => 'Ajuster la taille des pixels constituant la photo',
 	'photo_frame_rotate_desc'			 => 'Faire pivoter la photo',
 	'photo_frame_layers_desc'			 => 'Gérer les différentes couches de manipulations',
 	'photo_frame_no_layers'				 => '<i class="icon-warning-sign"></i> Cette photo ne possède aucune couche.',
 	'photo_frame_effects_error'			 => 'Une erreur s\'est produite lors du rendu de l\'aperçu.',
 	'photo_frame_invalid_thumbnail' 	 => 'La miniature utilisée pour générer l\'aperçu des effets n\'existe pas.',
-	
+
 	'photo_frame_min_photos_error'       => 'Vous devez téléverser au moins {min_photos} {min_photos_name}.',
 	'photo_frame_max_photos_error'       => 'Vous devez téléverser un maximum de {max_photos} {max_photos_name}.',
-			
+
 	'photo_frame_interface_settings'     => 'Paramètres de l\'interface',
 	'photo_frame_resize_settings'        => 'Paramètres de redimensionnement',
 	'photo_frame_general_settings'       => 'Paramètres généraux',
 	'photo_frame_ignore_settings'        => 'Les paramètres ayant une valeur vide seront ignorés.',
 	'photo_frame_crop_settings'          => 'Paramètres de rognage',
 	'photo_frame_photo_settings'         => 'Paramètres photo',
-	
+
 	'photo_frame_invalid_format'         => 'L\'image est dans un format invalide. L\'image doit être au format <i>gif</i>, <i>jpeg</i>, ou <i>png</i>.',
-	
+
 	'photo_frame_min_width'              => 'L\'image doit avoir une largeur minimum de {min_width}px',
 	'photo_frame_min_height'             => 'L\'image doit avoir une hauteur minimum de {min_height}px',
-	
+
 	'photo_frame_upload_dir_not_exists'  => 'Le répertoire suivant n\'existe pas : {directory}',
 	'photo_frame_upload_file_not_exists' => 'Le fichier suivant n\'existe pas : {file}',
 	'photo_frame_max_size_exceeded'      => 'La taille de la photo que vous essayez de téléverser excède la limite fixée à {max_size}.',
 	'photo_frame_no_upload'              => 'La photo n\'a pas pu être téléchargée par le serveur. Vérifiez vos paramètres de serveur ou contactez votre administrateur de site.',
-	
+
 	//--------------------------------------------
 	'', ''
 );

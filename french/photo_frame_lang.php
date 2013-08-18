@@ -106,7 +106,6 @@ $lang	= array(
 	'photo_frame_invalid_thumbnail' 	 => 'La miniature utilisée pour générer l\'aperçu des effets n\'existe pas.',
 
 	'photo_frame_min_photos_error'       => 'Vous devez téléverser au moins {min_photos} {min_photos_name}.',
-	'photo_frame_max_photos_error'       => 'Vous devez téléverser un maximum de {max_photos} {max_photos_name}.',
 
 	'photo_frame_interface_settings'     => 'Paramètres de l\'interface',
 	'photo_frame_resize_settings'        => 'Paramètres de redimensionnement',
@@ -124,6 +123,25 @@ $lang	= array(
 	'photo_frame_upload_file_not_exists' => 'Le fichier suivant n\'existe pas : {file}',
 	'photo_frame_max_size_exceeded'      => 'La taille de la photo que vous essayez de téléverser excède la limite fixée à {max_size}.',
 	'photo_frame_no_upload'              => 'La photo n\'a pas pu être téléchargée par le serveur. Vérifiez vos paramètres de serveur ou contactez votre administrateur de site.',
+
+	/* Updated in Photo Frame 1.1 */
+
+	'photo_frame_max_photos_error'       => 'Vous ne pouvez téléverser plus de {max_photos} {max_photos_name}.',
+
+	/* Introduced in Photo Frame 1.1 */
+
+	'photo_frame_max_width'              => 'La largeur maximale autorisée pour l\'image est {max_width}px',
+	'photo_frame_max_height'             => 'La hauteur maximale autorisée pour l\'image est {max_height}px',
+	'photo_frame_required_ratio'         => 'L\'image doit avoir un ratio d\'aspect de {aspect_ratio}',
+
+	'photo_frame_meta'				     => 'Meta Données',
+	'photo_frame_meta_desc'		 		 => 'Lire les métadonnées de la photo.',
+
+	'photo_frame_text'				     => 'Labels',
+	'photo_frame_fonts'				     => 'Polices',
+	'photo_frame_new_label'				 => '<i class="icon-plus"></i> Nouveau Label',
+	'photo_frame_text_desc'		 		 => 'Créer et superposer des labels sur les photos.',
+	'photo_frame_label_default'			 => 'Votre texte ici...',
 
 	//--------------------------------------------
 	'', ''

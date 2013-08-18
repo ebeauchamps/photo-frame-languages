@@ -106,7 +106,6 @@ $lang	= array(
 	'photo_frame_invalid_thumbnail' 	 => 'The thumbnail used to generate the effects preview does not exists.',
 	
 	'photo_frame_min_photos_error'       => 'You must upload at least {min_photos} {min_photos_name}.',
-	'photo_frame_max_photos_error'       => 'You must upload at least {max_photos} {max_photos_name}.',
 			
 	'photo_frame_interface_settings'     => 'Interface Settings',
 	'photo_frame_resize_settings'        => 'Resize Settings',
@@ -125,6 +124,25 @@ $lang	= array(
 	'photo_frame_max_size_exceeded'      => 'The photo you are trying to upload exceeds the maximum file size of {max_size}.',
 	'photo_frame_no_upload'              => 'The photo cannot be uploaded by the server. Check your server settings or contact your service administrator.',
 	
-	//--------------------------------------------
+	/* Updated in Photo Frame 1.1 */
+	
+	'photo_frame_max_photos_error'       => 'You cannot upload more than {max_photos} {max_photos_name}.',
+
+	/* Introduced in Photo Frame 1.1 */
+	
+	'photo_frame_max_width'              => 'The image must have a maximum width of {max_width}px',
+	'photo_frame_max_height'             => 'The image must have a maximum height of {max_height}px',
+	'photo_frame_required_ratio'         => 'The image must have an aspect ratio of {aspect_ratio}',
+	
+	'photo_frame_meta'				     => 'Meta Data',
+	'photo_frame_meta_desc'		 		 => 'Read the meta data for the photo.',
+
+	'photo_frame_text'				     => 'Labels',
+	'photo_frame_fonts'				     => 'Fonts',
+	'photo_frame_new_label'				 => '<i class="icon-plus"></i> New Label',
+	'photo_frame_text_desc'		 		 => 'Create and overlay text labels over photos.',
+	'photo_frame_label_default'			 => 'Your text here...',
+	
+	//--------------------------------------------	
 	'', ''
 );

@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $lang	= array(
-	
+
 	'photo_frame_module_name'            => 'Photo Frame',
 	'photo_frame_settings'               => 'Photo Frame Settings',
 	'photo_frame_module_description'     => 'Premium photo management',
 	'photo_frame_required'    			 => 'The {field_name} field is required.',
-		
+
 	'photo_frame_button_text'            => 'Upload',
 	'photo_frame_browse_button_text'     => 'Browse',
 	'photo_frame_instructions'           => 'Crop the photo by clicking and dragging.',
@@ -75,7 +75,7 @@ $lang	= array(
 	'photo_frame_lat'				     => 'Lat',
 	'photo_frame_lng'				     => 'Lng',
 	'photo_frame_enter_location'		 => 'Enter an address or zip',
-	
+
 	'photo_frame_maintain_ratio'		 => 'Maintain aspect ratio?',
 	'photo_frame_sharpness_desc'		 => 'Adjust the sharpness of the photo',
 	'photo_frame_grayscale_desc'		 => 'Converts the photo to a grayscale.',
@@ -96,44 +96,44 @@ $lang	= array(
 	'photo_frame_effects_desc'  		 => 'Apply various effects to the photo',
 	'photo_frame_vignette_desc'			 => 'Apply a vignette effect to the photo.',
 	'photo_frame_rgba_desc'				 => 'Adjust the RGBA values in the photo',
-	'photo_frame_rgb_desc'				 => 'Adjust the RGB values in the photo',	
-	'photo_frame_blur_desc'				 => 'Adjust the blur level of the photo',	
-	'photo_frame_pixelate_desc'			 => 'Adjust the size of the pixels that make up the photo',	
+	'photo_frame_rgb_desc'				 => 'Adjust the RGB values in the photo',
+	'photo_frame_blur_desc'				 => 'Adjust the blur level of the photo',
+	'photo_frame_pixelate_desc'			 => 'Adjust the size of the pixels that make up the photo',
 	'photo_frame_rotate_desc'			 => 'Rotate the photo',
 	'photo_frame_layers_desc'			 => 'Manage the various layers of manipulations',
 	'photo_frame_no_layers'				 => '<i class="icon-warning-sign"></i> This photo has no layers.',
 	'photo_frame_effects_error'			 => 'An error occurred when trying to render the preview.',
 	'photo_frame_invalid_thumbnail' 	 => 'The thumbnail used to generate the effects preview does not exists.',
-	
+
 	'photo_frame_min_photos_error'       => 'You must upload at least {min_photos} {min_photos_name}.',
-			
+
 	'photo_frame_interface_settings'     => 'Interface Settings',
 	'photo_frame_resize_settings'        => 'Resize Settings',
 	'photo_frame_general_settings'       => 'General Settings',
 	'photo_frame_ignore_settings'        => 'Any setting with an empty value will be ignored.',
 	'photo_frame_crop_settings'          => 'Crop Settings',
 	'photo_frame_photo_settings'         => 'Photo Settings',
-	
+
 	'photo_frame_invalid_format'         => 'The image is an invalid format. The image must be <i>gif</i>, <i>jpeg</i>, or a <i>png</i>.',
-	
+
 	'photo_frame_min_width'              => 'The image must have a minimum width of {min_width}px',
 	'photo_frame_min_height'             => 'The image must have a minimum height of {min_height}px',
-	
+
 	'photo_frame_upload_dir_not_exists'  => 'The following directory does not exist: {directory}',
 	'photo_frame_upload_file_not_exists' => 'The following file does not exist: {file}',
 	'photo_frame_max_size_exceeded'      => 'The photo you are trying to upload exceeds the maximum file size of {max_size}.',
 	'photo_frame_no_upload'              => 'The photo cannot be uploaded by the server. Check your server settings or contact your service administrator.',
-	
+
 	/* Updated in Photo Frame 1.1 */
-	
+
 	'photo_frame_max_photos_error'       => 'You cannot upload more than {max_photos} {max_photos_name}.',
 
 	/* Introduced in Photo Frame 1.1 */
-	
+
 	'photo_frame_max_width'              => 'The image must have a maximum width of {max_width}px',
 	'photo_frame_max_height'             => 'The image must have a maximum height of {max_height}px',
 	'photo_frame_required_ratio'         => 'The image must have an aspect ratio of {aspect_ratio}',
-	
+
 	'photo_frame_meta'				     => 'Meta Data',
 	'photo_frame_meta_desc'		 		 => 'Read the meta data for the photo.',
 
@@ -142,7 +142,17 @@ $lang	= array(
 	'photo_frame_new_label'				 => '<i class="icon-plus"></i> New Label',
 	'photo_frame_text_desc'		 		 => 'Create and overlay text labels over photos.',
 	'photo_frame_label_default'			 => 'Your text here...',
-	
-	//--------------------------------------------	
+
+
+	'photo_frame_focal_point'			 => 'Focal Point',
+	'photo_frame_focal_point_desc'		 => 'Define a focal point on the photo.',
+
+	/* Introduced in Photo Frame 1.2 */
+
+
+	'photo_frame_hide_focal_point' 	     		 => 'Hide Focus',
+	'photo_frame_show_focal_point'	     		 => 'Show Focus',
+
+	//--------------------------------------------
 	'', ''
 );

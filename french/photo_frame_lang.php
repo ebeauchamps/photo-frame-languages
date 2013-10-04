@@ -143,6 +143,16 @@ $lang	= array(
 	'photo_frame_text_desc'		 		 => 'Créer et superposer des labels sur les photos.',
 	'photo_frame_label_default'			 => 'Votre texte ici...',
 
+
+	'photo_frame_focal_point'			 => 'Point de focus',
+	'photo_frame_focal_point_desc'		 => 'Définissez un point de focus sur la photo.',
+
+	/* Introduced in Photo Frame 1.2 */
+
+
+	'photo_frame_hide_focal_point' 	     		 => 'Masquer le focus',
+	'photo_frame_show_focal_point'	     		 => 'Montrer le focus',
+
 	//--------------------------------------------
 	'', ''
 );
